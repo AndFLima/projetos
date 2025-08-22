@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevClub Store</title>
+    <title>Lima Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   <header>
+    <header>
         <div id="logo">
-            DevClub Store
+            Lima Store
         </div>
         <nav>
             <ul>
@@ -18,9 +25,9 @@
                 <li>Contato</li>
             </ul>
         </nav>
-   </header>
+    </header>
 
-   <main id="carrocel">
+    <main id="carrocel">
         <div id="circulo-flutuante">
             <div class="circle"></div>
             <div class="circle"></div>
@@ -30,7 +37,7 @@
 
         <div id="lista-carrocel"><!--Inicio do carrocel intertivo-->
 
-            <div class="item-ativo">
+            <div class="item ativo">
                 <div class="produto-img">
                     <img src="imagens/air-pods.png" alt="">
                 </div>
@@ -38,7 +45,9 @@
                     <p class="tag-produto">Novo Lançamento</p>
                     <p class="nome-produto">Apple Watch Series 10</p>
                     <p class="descrição">
-                        O smartwatch mais engraçado do mercado. Monitoramento comleto de saúde, GPS integrado, tela AMOLED de alta resolução e bateria de longa duração.Perfeito para acompanhar seu estilo de vida ativo
+                        O smartwatch mais engraçado do mercado. Monitoramento comleto de saúde, GPS integrado, tela
+                        AMOLED de alta resolução e bateria de longa duração.Perfeito para acompanhar seu estilo de vida
+                        ativo
                     </p>
                     <button class="btn">Saiba Mais</button>
                 </div>
@@ -52,7 +61,8 @@
                     <p class="tag-produto">Som premium</p>
                     <p class="nome-produto">Air pods Max</p>
                     <p class="descrição">
-                        Experimente o som em sua forma mais pura. Cancelamento de ruído adaptativo, qualidade de áudio excepcional e disegn ergonômico para o máximo conforto. Sua música nunca soou tão bem.
+                        Experimente o som em sua forma mais pura. Cancelamento de ruído adaptativo, qualidade de áudio
+                        excepcional e disegn ergonômico para o máximo conforto. Sua música nunca soou tão bem.
                     </p>
                     <button class="btn">Saiba Mais</button>
                 </div>
@@ -73,7 +83,36 @@
             </div>
 
         </div><!--Fim do carrocel interativo-->
-   </main>
-    
+
+        <div id="arrows">
+            <button class="arrow-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                </svg>
+            </button>
+            <button class="arrow-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg>
+            </button>
+        </div>
+
+        <div id="indicadores">
+            <div id="numeros">
+                01
+            </div>
+            <div id="pontos">
+                <div class="num ativo"></div>
+                <div class="num"></div>
+                <div class="num"></div>
+            </div>
+        </div>
+    </main>
+
 </body>
+
 </html>
