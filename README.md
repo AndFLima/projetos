@@ -1,1 +1,1 @@
-Este é um projeto de um carrocel responsivo com imagens, descrição e um indicador que numera e informa visualmente a posição que o usuáio está navegando.
+Este é um projeto de um carrocel responsivo com imagens, descrição e um indicador que numera e informa visualmente a posição que o usuáio está navegando. Também possui uma animação utilizando o keyframes.
