@@ -225,14 +225,14 @@ header nav ul li:hover::after {
     gap: 10px;
 }
 
-.num {
+.ponto {
     width: 40px;
     height: 4px;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 2px;
 }
 
-.num.ativo {
+.ponto.ativo {
     background-color: #00f7ff;
     box-shadow: 0 0 10px rgba(0, 247, 255, 0.5);
 }
