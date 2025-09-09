@@ -42,6 +42,6 @@ nextButton.addEventListener('click', function() {
 })
 
 
-setInterval(() => {
+timer = setInterval(() => {
     atualizar(1)
 }, 5000);
