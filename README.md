@@ -14,7 +14,7 @@ Este projeto apresenta a implementação de um carrocel responsivo utilizando HT
 
 - HTML5
 - CSS3
-- *JAVASCRIPT
+- JAVASCRIPT
 
 ## Objetivo
 
